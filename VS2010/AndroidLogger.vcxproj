@@ -40,12 +40,12 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>..\ThirdParty\Windows\include;..\ThirdParty\Scintilla\include;..\ThirdParty\NotepadPlusPlus;..\ThirdParty\Scintilla\lexlib\;..\Source;..\ThirdParty\tinyxml\include;$(IncludePath)</IncludePath>
-    <OutDir>C:\Program Files %28x86%29\Notepad++\plugins</OutDir>
+    <OutDir>C:\Program Files %28x86%29\Notepad++\plugins\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <IncludePath>..\ThirdParty\Windows\include;..\ThirdParty\Scintilla\include;..\ThirdParty\NotepadPlusPlus;..\ThirdParty\Scintilla\lexlib\;..\Source;$(IncludePath)</IncludePath>
-    <OutDir>C:\Program Files %28x86%29\Notepad++\plugins</OutDir>
+    <OutDir>C:\Program Files %28x86%29\Notepad++\plugins\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
